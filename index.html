@@ -16,7 +16,6 @@ body {
 	
 	background: rgb(238,238,238); /* Old browsers */
 	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
-	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2VlZWVlZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNjY2NjY2MiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
 	background: -moz-linear-gradient(top,  rgba(238,238,238,1) 0%, rgba(204,204,204,1) 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(238,238,238,1)), color-stop(100%,rgba(204,204,204,1))); /* Chrome,Safari4+ */
 	background: -webkit-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* Chrome10+,Safari5.1+ */
@@ -50,18 +49,6 @@ p {
 	padding: 10px;
 	margin: 0 auto;
 }
-	<head>
-    ...
-    <style>
-        @font-face {
-            font-family: "OMORI_GAME2";
-            src: url("https://github.com/PinskiyGithub/BladeySpace/blob/main/OMORI_GAME.ttf");
-        }
-        html {
-            font-family: "OMORI_GAME", "Bitstream Vera Serif", serif;
-        }
-    </style>
-</head>
 
 #border {
 	background-color: #99C;
@@ -85,18 +72,6 @@ p {
     box-shadow:  0px 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 </style>
-<head>
-    ...
-    <style>
-        @font-face {
-            font-family: "OMORI_GAME2";
-            src: url("https://github.com/PinskiyGithub/BladeySpace/blob/main/OMORI_GAME2.ttf");
-        }
-        html {
-            font-family: "OMORI_GAME2", "Bitstream Vera Serif", serif;
-        }
-    </style>
-</head>
 
   <title>Белое Пространство Лезви</title>
 
@@ -114,17 +89,7 @@ p {
 
 	// Detects if the html file is ran locally.
 	// You can remove this code for the final version
-	if (window.location.protocol == "file:")
-	{
-		document.write('<div id="bloctxt">');
-		document.write('<h1>The application cannot be run...</h1>');
-		document.write('<p>HTML browsers do not allow you to launch data files directly from the file system.<br>');
-		document.write('A drag & drop of the html file on a web-browser window will not work, on any machine.<br>');
-		document.write('Please use the Build & Run option (it opens a local web server) to run your application,<br>') 
-		document.write('or upload your application folder to a remote web-server, and start it from there...</p>');
-		document.write('</div>');
-		throw new error("Cannot run application");
-	}
+	
   </script>
 </head>
 
